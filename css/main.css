@@ -1,0 +1,178 @@
+@font-face {
+font-family: "Julius Sans One";
+src: url("./JuliusSansOne-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.main {
+  padding: 0;
+  margin: 0;
+  background-image: url("../img/background.png");
+  background-position: top;
+
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #DCDCDC;
+}
+
+#particles-js{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.title {
+  font-family: Julius Sans One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  text-align: center;
+  color: #63000A;
+  position: relative;
+  top: -53px
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.form {
+  padding: 60px 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: rgba(200, 200, 200, 0.9);
+  border-radius: 27px;
+  z-index: 1;
+}
+
+.input {
+  width: 380px;
+  height: 50px;
+  background: rgba(240, 227, 227, 0.2);
+  border: 2px solid #A91D31;
+  box-sizing: border-box;
+  color: black;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: 'Montserrat', sans-serif;
+  padding: 22px;
+}
+
+.input::placeholder {
+  color: black;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+textarea.input{
+  width: 380px;
+  height: 130px;
+  border: 2px solid #A91D31;
+  box-sizing: border-box;
+}
+
+.text {
+  display: inline;
+  width: 380px;
+  color: rgba(76, 86, 87, 1);
+;
+}
+
+.button {
+  color: white;
+  background: #A61725;
+  border-radius: 25px;
+  border: none;
+  height: 50px;
+  width: 50%;
+}
+
+.content-done {
+  float: right;
+  width: 50%;
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media all and (max-width: 500px) {
+  .main {
+    padding: 0 30px;
+    background-size: 1533px;
+    background-position: -830px -32px;
+  }
+
+  .input {
+    width: 230px;
+    height: 28px;
+    border: 1px solid #A41C2A;
+    box-sizing: border-box;
+    padding: 0 12px;
+    font-size: 11px;
+    line-height: 150%;
+    color: black;
+  }
+
+  .input::placeholder {
+    padding: 0 12px;
+    font-size: 11px;
+    line-height: 150%;
+    color: black;
+  }
+
+  .content {
+    justify-content: space-around;
+    width: 100%;
+    gap: 11px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  textarea.input{
+    padding: 10px 10px;
+    width: 230px;
+    height: 107px;
+    border: 1px solid #A41C2A;
+    box-sizing: border-box;
+  }
+
+  .text {
+    width: 230px;
+    font-size: 11px;
+  }
+
+  .form{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    gap: 11px;
+  }
+
+  .button {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 150%;
+    height: 39px;
+    width: 158px;
+  }
+}
+
