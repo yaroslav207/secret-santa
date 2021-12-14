@@ -129,13 +129,13 @@ textarea.input{
   .main {
     padding: 0 30px;
     background-size: 1533px;
-    background-position: -830px -32px;
+    background-position: -735px -17px;
   }
 
   .input {
     width: 230px;
-    height: 28px;
-    border: 1px solid #A41C2A;
+    height: 34px;
+    border: 1px solid rgba(114, 22, 34, 0.62);
     box-sizing: border-box;
     padding: 0 12px;
     font-size: 11px;
@@ -151,13 +151,17 @@ textarea.input{
   }
 
   .content {
-    justify-content: space-around;
+    justify-content: flex-start;
     width: 100%;
-    gap: 11px;
+    gap: 0px;
+    height: 100vh;
+    box-sizing: border-box;
   }
 
   .title {
     font-size: 36px;
+    flex: 0 0 30%;
+    top: -10px;
   }
 
   textarea.input{
@@ -165,6 +169,7 @@ textarea.input{
     height: 107px;
     border: 1px solid #A41C2A;
     box-sizing: border-box;
+    margin-top: 34px;
   }
 
   .text {
@@ -180,6 +185,7 @@ textarea.input{
     padding: 30px;
     width: 100%;
     gap: 11px;
+    flex: 0 0 50%;
   }
 
   .button {
