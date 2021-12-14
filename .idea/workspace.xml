@@ -109,7 +109,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1013" />
     <option name="y" value="27" />
     <option name="width" value="907" />
@@ -183,21 +183,20 @@
       <option name="presentableId" value="Default" />
       <updated>1639433682535</updated>
       <workItem from="1639433686004" duration="6036000" />
-      <workItem from="1639504490329" duration="5996000" />
+      <workItem from="1639504490329" duration="6623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12032000" />
+    <option name="totallyTimeSpent" value="12659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32975295" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32975295" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
