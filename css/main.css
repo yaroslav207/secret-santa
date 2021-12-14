@@ -5,6 +5,13 @@ src: url("./JuliusSansOne-Regular.ttf") format("truetype");
   font-weight: normal;
 }
 
+@font-face {
+  font-family: "Montserrat";
+  src: url("./Montserrat-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
 .main {
   padding: 0;
   margin: 0;
@@ -16,6 +23,7 @@ src: url("./JuliusSansOne-Regular.ttf") format("truetype");
   justify-content: center;
   align-items: center;
   background-color: #DCDCDC;
+  font-family: Montserrat;
 }
 
 #particles-js{
@@ -66,15 +74,13 @@ src: url("./JuliusSansOne-Regular.ttf") format("truetype");
   color: black;
   font-size: 16px;
   line-height: 150%;
-  font-family: 'Montserrat', sans-serif;
-  padding: 22px;
+  padding: 0 22px;
 }
 
 .input::placeholder {
   color: black;
   font-size: 16px;
   line-height: 150%;
-  font-family: 'Montserrat', sans-serif;
 }
 
 textarea.input{
@@ -82,6 +88,7 @@ textarea.input{
   height: 130px;
   border: 2px solid #A91D31;
   box-sizing: border-box;
+  padding-top: 10px;
 }
 
 .text {
@@ -94,6 +101,15 @@ textarea.input{
 .button {
   color: white;
   background: #A61725;
+  border-radius: 25px;
+  border: none;
+  height: 50px;
+  width: 50%;
+}
+
+.button:hover {
+  color: white;
+  background: #ee1833;
   border-radius: 25px;
   border: none;
   height: 50px;
@@ -145,7 +161,6 @@ textarea.input{
   }
 
   textarea.input{
-    padding: 10px 10px;
     width: 230px;
     height: 107px;
     border: 1px solid #A41C2A;
