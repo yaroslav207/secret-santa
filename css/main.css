@@ -116,6 +116,10 @@ textarea.input{
   width: 50%;
 }
 
+.main-done {
+  background: url('https://i.ibb.co/W0dKPnn/image-1-1.png');
+}
+
 .content-done {
   float: right;
   width: 50%;
